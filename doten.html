@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<link rel="stylesheet" href="doten.css">
+
+<body>
+    <header>
+        <div class="logo"><img src="/logo/ganesh.jpg" alt="error"> </div>
+        <select onchange="handelselect()">
+            <option value="" disabled selected>-- Please select a category --</option>
+            <option value="electronics">Electronics</option>
+            <option value="jewelery">Jewelery</option>
+            <option value="men's clothing">Men's Clothing</option>
+            <option value="women's clothing">Women's Clothing</option>
+        </select>
+        
+        <input type="text" id="titleInput" placeholder="Search by title..." oninput="handleTitleSearch()" class="text">
+        <input type="range" min="0" max="1000" value="0" step="10" onchange="handlePriceRange()" class="range" />
+        <span id="priceDisplay">Price: 0</span>
+
+        <div class="account">
+            <a href="#"><i class='bx bx-user'> account</i></a>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <a href="" class="bar" >Home</a>
+            <a href="#" class="bar">About</a>
+            <a href="#" class="bar">servise</a>
+            <a href="#" class="bar">help</a>
+        </ul>
+    </nav>
+
+  <div class="main">
+
+  </div>
+
+
+
+
+  <footer>
+    <div class="box11">
+ <div class="box11-a">
+ <h4>ABOUT</h4>
+ <a>contect</a>
+ <a>blog</a>
+ <a>servise</a>
+ </div>
+ <div class="box11-a">
+    <h4>HELP</h4>
+ <a>Payments</a>
+ <a>Shipping</a>
+ <a>Cancellation & Returns</a>
+ </div>
+ <div class="box11-a">
+    <h4>COMPANIES</h4>
+    <a>Myntra</a>
+    <a>Flipkard</a>
+    <a>Shopsy</a>
+    <a> meesho</a>
+ </div>
+</div>
+<div>
+    
+ <p>© 2024 doten.com. All rights reserved.</p></div>
+</footer><script src="doten.js"></script>
+</body>
+<script src="doten.js"></script>
+</html>
+
+
+
+
